@@ -1,4 +1,4 @@
-# Appendix
+# Appendice
 
-The following sections contain reference material you may find useful in your
-Rust journey.
+Le sezioni seguenti contengono materiale di riferimento che potresti trovare utile nel tuo percorso di apprendimento.
+
