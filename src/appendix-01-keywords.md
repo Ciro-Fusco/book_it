@@ -1,17 +1,35 @@
 ## Appendix A: Keywords
 
-The following list contains keywords that are reserved for current or future
-use by the Rust language. As such, they cannot be used as identifiers (except
-as raw identifiers as we’ll discuss in the “[Raw
-Identifiers][raw-identifiers]<!-- ignore -->” section), including names of
-functions, variables, parameters, struct fields, modules, crates, constants,
-macros, static values, attributes, types, traits, or lifetimes.
+La lista seguente contiene parole chiave che sono riservate per l'uso, corrente o futuro, dal linguaggio Rust. In quanto tali, esse non possono essere usati come indentificatori (fatta eccezione nel caso in cui siano usati come identificatori raw come discusso nella sezione “[Identificatori Raw][raw-identifiers]<!-- ignore -->”), inclusi nomi di funzioni, variabili, parametri, campi di struct, moduli, crates, costanti, macro, valori statici, atribbuti, tipi, tratti o lifetimes.
 
 [raw-identifiers]: #raw-identifiers
 
-### Keywords Currently in Use
+### Parole chiave correntemente in uso
 
-The following keywords currently have the functionality described.
+Le seguenti parole chiave possiedono le funzionalità descritte:
+
+* `as` - effettua il casting primitivo, disambiguando il tipo specifico contenente una variabile, o rinomina variabili nelle istruzioni `use` e `extern crate`
+* `async` - riturna un `Future` invece di bloccare il thread corrente
+* `await` - sospende l'esecuzione fino a quando il risultato di un `Future` è pronto
+* `break` - esce da un loop immediatamente
+* `const` - definisce una variabile costante o un raw pointers costante
+* `continue` - passa alla prossima iterazione di un ciclo
+* `crate` - effettua il collegamento ad un crate esterno o ad una variabile macro che rappresenta il crate nel quale la macro è definita.
+* `dyn` - dynamic dispatch to a trait object
+* `else` - alternativa a i construtti `if` e `if let` per il controllo del flusso
+* `enum` - definisce un'enumerazione
+* `extern` - collega un crate esterno, una funzione o una variabile
+* `false` - falso letterale Booleano
+* `fn` - definisce una funzione o il tipo puntatore a funzione
+* `for` - itera sugli elementi dati da un iteratore, implementa un tratto, o specifica un lifetime di alto livello
+* `if` - dirama il flusso di controllo dato il risultato di un'espressione condizionale
+* `impl` - implementa una funzionalità di tratto o intrinseca
+* `in` - fa parte della sintassi di un ciclo `for`
+* `let` - definisce una variabile
+* `loop` - itera incondizionalmente
+* `match` - confronta un valore con un pattern
+* `mod` - definisce un modulo
+
 
 * `as` - perform primitive casting, disambiguate the specific trait containing
   an item, or rename items in `use` and `extern crate` statements
