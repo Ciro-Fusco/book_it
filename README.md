@@ -21,6 +21,15 @@ See the [releases] to download just the code of all the code listings that appea
 
 [releases]: https://github.com/rust-lang/book/releases
 
+## Capitoli già asseganti
+
+I seguenti capitoli sono già stati assegnati: 
+
+  Appendici
+  Capitolo 00-00
+  
+  
+
 ## Requirements
 
 Building the book requires [mdBook], ideally the same version that
