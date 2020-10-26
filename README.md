@@ -21,15 +21,20 @@ See the [releases] to download just the code of all the code listings that appea
 
 [releases]: https://github.com/rust-lang/book/releases
 
+## Istruzioni
+
+Se volete partecipare traducendo uno o più capitoli create un issue, inserendo anche l'eventuale capitolo che volete tradurre se ne volete uno in particolare,
+in modo che possa assegnarvi i diritti di scrittura.
+
 ## Capitoli già asseganti
 
 I seguenti capitoli sono già stati assegnati: 
 
-  Appendici
+  Appendici [StayErk]
   
-  Capitolo 00-00
+  Capitolo 00-00[Ciro-Fusco]
   
-  Capitolo 01-01
+  Capitolo 01-01[VincenzoAiello]
   
   
 
