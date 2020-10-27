@@ -1,6 +1,6 @@
-## Installation
+## Installazione
 
-Il primo passo è quello di installare Rust. Scaricheremo Rust attraverso `rustup`, un
+Il primo passo è quello di installare Rust. Scaricheremo Rust attraverso `rustup`, uno
 strumento a linea di comando per la gestione delle versioni Rust e tools associati. Ti servirà
 una connessione internet per il download.
 
@@ -11,7 +11,7 @@ I seguenti passaggi installano l'ultima versione stabile del compilatore Rust.
 La stabilità di Rust garantisce che tutti gli esempi nel libro che
 vengono compilati continueranno a essere compilati anche con versioni più recenti di Rust. L'output potrebbe
 differire leggermente tra le versioni, perché Rust migliora spesso i messaggi di errore
-e di warning. In altre parole, qualsiasi nuova versione stabile di Rust si installa
+e di warning. In altre parole, qualsiasi nuova versione stabile di Rust si installi
 utilizzando questi passaggi dovrebbe funzionare come previsto con il contenuto di questo libro.
 
 > ### Notazione da riga di comando
@@ -31,8 +31,8 @@ Se stai usando Linux o macOS, apri un terminale e inserisci il seguente comando:
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
-Il comando scarica uno script e avvia l'installazione del `rustup`
-, che installa l'ultima versione stabile di Rust. Potrebbe essere richiesta
+Il comando scarica uno script e avvia l'installazione del `rustup`,
+che installa l'ultima versione stabile di Rust. Potrebbe essere richiesta
 la tua password per proseguire. Se l'installazione è riuscita, apparirà la seguente riga:
 
 ```text
@@ -40,8 +40,8 @@ Rust is installed now. Great!
 ```
 
 Inoltre, avrai bisogno di un linker di qualche tipo. E' probabile che ne avrai uno già
-installato, ma se quando tenterai di compilare un programma Rust e otterrai errori che indicano
-che un linker non può essere eseguito, ciò significa che il linker non è installato sul vostro
+installato, ma se quando tenterai di compilare un programma Rust otterrai errori che indicano
+che un link non può essere eseguito, ciò significa che il linker non è installato sul vostro
 sistema e avrete bisogno di installarne uno manualmente. I compilatori C di solito contengono già
 un linker. Controlla la documentazione della tua piattaforma su come installare una compilatore C.
 Inoltre, alcuni pacchetti Rust dipendono da codice in C e avranno bisogno di un compilatore C. Pertanto, potrebbe valerne la pena installarne uno ora.
@@ -96,7 +96,7 @@ rustc x.y.z (abcabcabc yyyy-mm-gg)
 Se vedi queste informazioni, hai installato Rust con successo! Se non
 vedi queste informazioni e sei su Windows, controlla che Rust sia nel tuo `%PATH%`
 delle variabili di sistema. Se questo è tutto corretto e Rust ancora non funziona, ci sono
-un pò di posti in cui puoi ottenere aiuto. Il più semplice è il canale #beginners su
+un po' di posti in cui puoi ottenere aiuto. Il più semplice è il canale #beginners su
 [the official Rust Discord][discord]. Lì, puoi chattare con altri Rustaceans
 (un soprannome sciocco con cui chiamiamo noi stessi) che potranno aiutarti. Altre risorse
 puoi trovarle qui [the Users forum][users] e qui [Stack Overflow][stackoverflow].
