@@ -32,7 +32,9 @@ I seguenti capitoli sono già stati assegnati:
 
   Appendici [StayErk]
   
-  Capitolo 01-01[VincenzoAiello]
+  Capitolo 01-0*[VincenzoAiello]
+  
+  Capitolo 02-0*[Ciro-Fusco]
   
 ## Capitoli tradotti
 
