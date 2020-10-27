@@ -32,11 +32,11 @@ I seguenti capitoli sono già stati assegnati:
 
   Appendici [StayErk]
   
-  Capitolo 00-00[Ciro-Fusco]
-  
   Capitolo 01-01[VincenzoAiello]
   
-  
+## Capitoli tradotti
+
+  Capitolo 00-00[Ciro-Fusco]
 
 ## Requirements
 
