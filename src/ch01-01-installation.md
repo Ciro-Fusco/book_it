@@ -111,4 +111,4 @@ L'installazione di Rust include anche una copia della documentazione locale, qui
 è possibile leggerla offline. Eseguire `rustup doc` per aprire la documentazione locale nel
 tuo browser.
 
-Ogni volta che non conosci cosa fa o come usare un tipo o una funzione fornita dalla libreria standard, utilizza la documentazione per scoprirlo!
+Ogni volta che non conosci cosa fare o come usare un tipo o una funzione fornita dalla libreria standard, utilizza la documentazione per scoprirlo!
